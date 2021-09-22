@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.picture{
+    position: relative;
+    background-image: url("../images/city.jpg");
+    height: 100vh;
+}
+div {
+    height: 100vh;
+    animation-name: movingcar ;
+    animation-direction: normal;
+    background-size: cover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes movingcar {
+    0% {
+        height: 100vh;
+        background-position-x: left;
+    }
+    100% {
+        height: 100vh;
+        background-position-x: right;
+    }
+}
+.bike {
+    position: absolute;
+    bottom: 0;
+    margin-left: 60px;
+}
+.car{
+    position: absolute;
+    bottom: 0;
+    margin-left: 800px;
+}

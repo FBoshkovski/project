@@ -1,0 +1,51 @@
+.nav-align {
+    margin-top: 7px;
+}
+.section-destiny{
+    display: flex;
+}
+.div-start{
+    width: 100%;
+}
+.build-p{
+    font-size: 1.5rem;
+    margin-left: 250px;
+    font-family: monospace;
+}
+.build-p-second{
+    width: 50%;
+    margin-left: 190px;
+    font-family: cursive;
+}
+.flex-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 0.5px;
+}
+.link-fix{
+    color: rgb(159, 84, 230)
+
+}
+.image-stick{
+    margin-top: 100px;
+}
+.heading-center{
+    margin-left: 22%;
+}
+.div-state{
+    width: 400px;
+}
+.div-state2{
+    width: 400px;
+
+}
+.img-work{
+    width: 80%;
+    height: 500px;
+}
+.container{
+    display: flex;
+}
